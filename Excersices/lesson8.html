@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Block Elements</title>
+    <style>
+
+    .logo {
+        width: 250px;
+        margin-left: 400px;
+        display: inline-block;
+        margin-bottom: 0px;
+        
+        
+      }
+      .search-bar2 {
+        font-size: 17px;
+        padding-left: 20px;
+        width: 550px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 50px;
+        margin-left: 240px;
+        margin-top: 0;
+
+      }
+
+      .name-input, 
+      .email-input {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 16px;
+        width: 170px;
+        height: 20px;
+      }
+
+      .survey {
+        font-family: arial;
+        font-size: 18px;
+        width: 250px;
+        vertical-align: middle;
+        display: inline-block;
+
+      }
+      .yes,
+      .no {
+        font-size: 20px;
+        vertical-align: middle;
+      }
+      .first,
+      .last {
+        font-family: arial;
+        font-size: 20px;
+        width: 160px;
+        height: 30px;
+        margin-left: 2pxpx;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 8px;
+      }
+      .email {
+        font-family: arial;
+        font-size: 20px;
+        width: 345px;
+        border-radius: 4px;
+        margin-top: 10px;
+        height: 30px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 8px;
+        display: block;   
+
+      }
+      .up{
+        background-color: #0e7ee0;
+        color: white;
+        border-style: none;
+        width: 365px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      
+      .request {
+        font-family: arial;
+        font-size: 35px;
+        margin-bottom: 15px;
+      }
+      .enter1,
+      .enter2 {
+        font-family: arial;
+        font-size: 16px;
+        background-color: rgba(128, 128, 128, 0.105);
+        border: none;
+        display: block;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 40px;
+        padding-left: 15px;
+        
+      }
+      .uber-button{
+  background-color: black;
+  color: white;
+  border: none;
+  width: 145px;
+  height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-top: 25px;
+  transition: opecity 1s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.schedule {
+  background-color: rgba(128, 128, 128, 0.105);
+  color: black;
+  border: none;
+  width: 170px;
+  height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 25px;
+
+}
+
+      
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="google-logo.webp">
+    <input class="search-bar2" type="text" placeholder="Search Google or type a URL">
+
+
+    <input class="name-input" type="text" placeholder="Name">
+    <input class="email-input" type="text" placeholder="Email">
+    
+    <p class="survey">
+      Thanks for chatting with our customer support. 
+      Would you like to take our quick survey?
+    </p>
+
+    <button class="yes">
+      Yes
+    </button>
+    <button class="no">
+      No
+    </button>
+    <p></p>
+
+    <input class="first" type="text" placeholder="First name">
+    <input class="last" type="text" placeholder="Last name">
+    <input class="email" type="text" placeholder="Email">
+    <button class="up">Sign Up</button>
+  
+    <p class="request">Request a ride now</p>
+    <input class="enter1" type="text" placeholder="Enter pickup location">
+    <input class="enter2" type="text" placeholder="Enter destination">
+    <button class="uber-button">
+      Request now
+    </button>
+    <button class="schedule">Schedule for later</button>
+
+  </body>
+</html>

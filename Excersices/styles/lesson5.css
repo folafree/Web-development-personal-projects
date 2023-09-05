@@ -1,0 +1,74 @@
+.tahoma-font {
+  font-family: tahoma;
+  font-size: 18px;
+  font-weight: bold;
+}
+.deals-text {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+.end-text {
+  font-family: arial;
+  font-size: 16px;
+  color: red;
+  font-style: italic;
+  margin-top: 2px;
+}
+.css-text {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+.pro-text {
+  font-family: verdana;
+  font-size: 10px;
+  color:rgb(96, 96, 96);
+  margin-top: 2px;
+
+}
+.text-text {
+  font-family: verdana;
+  font-size: 10px;
+  width: 180px;
+}
+.get-button {
+  font-family: verdana;
+  font-size: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  
+
+}
+.shopping-text {
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.apple-text {
+  font-family: arial;
+  font-size: 8px;
+  margin-left: 30px;
+  margin-top: 0;
+
+}
+.learn-text {
+  font-family: arial;
+  font-size: 8px;
+  color: rgb(6, 86, 246);
+  margin-left: 65px;
+  margin-top: 10px;
+}

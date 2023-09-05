@@ -1,0 +1,90 @@
+.back-button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-right: 8px;
+}
+.search-result {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.next-button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 8px;
+
+}
+
+.stretch1-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 8px;
+  transition: padding 1s,
+  font-size 1s;
+  cursor: pointer;
+
+}
+.stretch1-button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+
+}
+
+.shadow-button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+
+}
+.shadow-button:active {
+  margin-top: 3px;
+  margin-left: 10px;
+  box-shadow: none;
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: padding-left 0.5s,
+  padding-right 0.5s,
+  margin-left 0.5s;
+}
+.stretch-button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+
